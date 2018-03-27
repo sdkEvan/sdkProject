@@ -1,0 +1,39 @@
+@import './color/color.scss';
+.el-menu-item,.el-submenu__title {
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+}
+.el-menu-item-group__title {
+	padding-top: 0px;
+	font-size: 12px;
+}
+.el-submenu .el-menu {
+	background-color: $color_menu_item_hover;
+}
+.el-submenu .el-menu-item:hover,.el-submenu__title:hover{
+	background-color: $color_menu_item_hover;
+}
+.el-submenu .el-menu-item {
+    height: 38px;
+    line-height: 38px;
+}
+.el-submenu .el-menu-item:hover{
+	color: $color_menu_hover;
+}
+.el-menu-item.is-active {
+    color: $color_menu_item_color;
+    background: rgba(0,0,0,0.10);
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.12);
+}
+ .el-menu-item:hover{
+	color: $color_menu_item_color;
+    background: rgba(0,0,0,0.050);
+    
+}
+.el-menu-item, .el-submenu__title{
+	color:$color_menu_item_color;
+}
+.el-menu{
+	background-color: $color_menu_bgcolor;
+}

@@ -1,0 +1,16 @@
+@import "./color/color.scss";
+.el-dialog{
+	background-color: $color_dialog_bgcolor;
+}
+.el-dialog__title{
+	color: $color_dialog_title;
+}
+.el-dialog__headerbtn .el-dialog__close{
+	color: $color_dialog_headerbtn_close;
+}
+.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close{
+	color: $color_dialog_headerbtn_close_hover;
+}
+.el-dialog__body{
+	color: $color_dialog_body;
+}

@@ -1,0 +1,8 @@
+@import './color/color.scss';
+.el-card{
+	background-color: $color_card_bgcolor;
+	border-color:$color_card_border;
+}
+.el-card__header{
+	border-bottom-color:$color_card_border; 
+}

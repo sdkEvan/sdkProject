@@ -1,0 +1,43 @@
+@import "./color/color.scss";
+.el-pagination{
+	color: $color_pagination;
+}
+.el-pagination button.disabled{
+	color: $color_pagination_button_disabled;
+	background-color: $color_pagination_button_disabled_bgcolor;
+}
+.el-pagination .btn-prev, .el-pagination .btn-next{
+	color: $color_pagination_btn;
+	background-color: $color_pagination_button_disabled_bgcolor;
+	border-color: $color_pagination_btn_border;
+}
+.el-pagination--small .btn-prev, .el-pagination--small .btn-next, .el-pagination--small .el-pager li, .el-pagination--small .el-pager li:last-child{
+	border-color: transparent;
+}
+.el-pager li{
+	border-color: $color_pagination_btn_border;
+	background-color: $color_pagination_button_disabled_bgcolor;
+}
+.el-pager li.active{
+	color: $color_pager_active;
+	background-color: $color_pager_active_bgcolor;
+	border-color: $color_pager_active_bgcolor;
+}
+.el-pager li:hover{
+	color: $color_pager_active_bgcolor;
+}
+.el-pagination button:hover{
+	color: $color_pager_active_bgcolor;
+}
+.el-pager li.btn-quicknext, .el-pager li.btn-quickprev{
+	color: $color_pagination_btn;
+}
+.el-pagination__editor{
+	border-color: $color_pagination_btn_border;
+}
+.el-pagination__editor:focus{
+	border-color: $color_pager_active_bgcolor;
+}
+.el-pagination button.disabled:hover{
+	color: $color_pagination_button_disabled;
+}

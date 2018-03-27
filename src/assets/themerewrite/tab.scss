@@ -1,0 +1,36 @@
+@import './color/color.scss';
+.el-tabs--border-card{
+	background-color:$color_tab_bgcolor ;
+	border-color:$color_tab_border;
+}
+.el-tabs--border-card >.el-tabs__header .el-tabs__item.is-active{
+	border-left-color: $color_tab_border;
+	border-right-color: $color_tab_border;
+	background-color: $color_tab_active_bgcolor;
+}
+.el-tabs__header{
+	border-bottom-color: $color_tab_border;
+}
+.el-tabs--border-card >.el-tabs__header{
+	background-color: $color_tab_head_bgcolor;
+}
+.el-tabs__item{
+	color: $color_tab_item;
+}
+.el-tabs__item.is-active{
+	color: $color_tab_item_active;
+}
+.el-tabs__active-bar{
+	background-color: $color_tab_item_active;
+}
+.el-tabs--card > .el-tabs__header .el-tabs__item.is-active{
+	border-color: $color_tab_border;
+	border-bottom-color: $color_tab_active_bgcolor;
+}
+.el-tabs__new-tab{
+	border-color: $color_tab_new;
+	color: $color_tab_new;
+}
+.el-tabs__new-tab:hover{
+	color: $color_tab_item_active;
+}

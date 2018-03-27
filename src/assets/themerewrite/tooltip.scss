@@ -1,0 +1,9 @@
+@import "./color/color.scss";
+.el-tooltip__popper.is-dark{
+	background-color: $color_tooltip_isdark_bgcolor;
+	color: $color_tooltip_isdark;
+}
+.el-tooltip__popper.is-light{
+	background-color: $color_tooltip_islight_bgcolor;
+	border-color: $color_tooltip_islight_border;
+}

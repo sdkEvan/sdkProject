@@ -1,0 +1,49 @@
+@import "./color/color.scss";
+.el-table{
+	border-color: $color_table_border;
+	color: $color_table;
+}
+.el-table::before{
+	background-color: $color_table_border;
+}
+.el-table::after{
+	background-color: $color_table_border;
+}
+.el-table tr{
+	background-color: $color_table_bgcolor;
+}
+.el-table th.is-leaf, .el-table td{
+	border-color: $color_table_border;
+}
+.el-table__header-wrapper thead div, .el-table__footer-wrapper thead div{
+	background-color: $color_table_head_bgcolor;
+	color: $color_table_head;
+}
+.el-table th{
+	background-color: $color_table_head_bgcolor;
+}
+.el-table--enable-row-hover .el-table__body tr:hover > td{
+	background-color: $color_table_tr_hover_bgcolor;
+}
+.el-table .info-row{
+	background-color: $color_table_tr_info-row;
+}
+.el-table .positive-row{
+	background-color: $color_table_tr_positive-row;
+}
+.el-table__body tr.current-row > td{
+	background-color: $color_table_tr_current;
+}
+.el-table__expanded-cell{
+	background-color: $color_table_expanded-cell_bgcolor;
+}
+.el-table__header-wrapper tbody td, .el-table__footer-wrapper tbody td{
+	background-color: $color_table_expanded-cell_bgcolor;
+}
+.el-table tr:last-child td{
+	border-bottom: 0;
+}
+.el-table__fixed-header-wrapper thead div{
+	background-color: $color_table_fixe_header_thead_div;
+}
+

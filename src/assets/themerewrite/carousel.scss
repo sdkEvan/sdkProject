@@ -1,0 +1,8 @@
+@import "./color/color.scss";
+.el-carousel__arrow{
+	background-color: $color_carousel_arrow_bgcolor;
+	color: $color_carousel_arrow;
+}
+.el-carousel__button{
+	background-color: $color_carousel_button;
+}

@@ -1,0 +1,65 @@
+@import './color/main_color.scss';
+body{
+	background-color: $color_body_bgcolor;
+	color:$color_body;
+	font-family: Roboto,sans-serif;
+}
+code{
+	color: $color_code;
+	background-color: $color_code_bgcolor;
+}
+.sideBar-title{
+	color: $color_sideBar_title;
+}
+.navBar{
+	background-color: $color_navBar_bgcolor;
+}
+.sideBar{
+	background-color:$color_sideBar_bgcolor;
+}
+.elephant-col{
+    margin-bottom: 20px;
+}
+.bg-purple-dark {
+	background:$color_bg_purple_dark_bgcolor;
+}
+.bg-purple {
+	background:$color_bg_purple_bgcolor;
+}
+.bg-purple-light {
+	background:$color_bg_purple_light_bgcolor;
+}
+.grid-content {
+	border-radius: 0px;
+	min-height: 48px;
+}
+.row-bg {
+    padding: 10px 0;
+    background-color: $color_row_bg_bgcolor;
+}
+.elephant-content{
+    text-align: center;
+}
+.elephantColorName{
+    font-size: 18px;
+    padding: 5px 0;
+    font-weight: 700;
+}
+.elephantColor{
+    font-size: 14px;
+    padding: 5px 0;
+    line-height: 2;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 0;
+}
+.bottom-margin{
+	margin-bottom: 50px;
+}
+.el-autocomplete{
+    display: inline
+}

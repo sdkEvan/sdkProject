@@ -1,0 +1,14 @@
+@import "./color/color.scss";
+.el-tree{
+	background-color: $color_tree_bgcolor;
+	border-color: $color_tree_border;
+}
+.el-tree-node__expand-icon{
+	border-left-color: $color_tree_node_icon_border;
+}
+.el-tree-node__content:hover{
+	background-color: $color_tree_node_content_hover_bgcolor;
+}
+.el-tree--highlight-current .el-tree-node.is-current > .el-tree-node__content{
+	background-color: $color_tree_highlight_current_bgcolor;
+}

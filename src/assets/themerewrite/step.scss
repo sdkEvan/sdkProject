@@ -1,0 +1,61 @@
+@import "./color/color.scss";
+.el-step__head.is-text.is-process{
+	background-color: $color_step_isprocess_bgcolor;
+	border-color: $color_step_isprocess_bgcolor;
+	color: $color_step_isprocess;
+}
+.el-step__head.is-process{
+	color: $color_step_isprocess_bgcolor;
+	border-color: $color_step_isprocess_bgcolor;
+}
+.el-step__line{
+	background-color: $color_step_isprocess_bgcolor;
+}
+.el-step__title.is-process{
+	color: $color_step_title_isprocess;
+}
+
+.el-step__description.is-process{
+	color: $color_step_des_isprocess;
+}
+.el-step__head.is-text.is-wait{
+	color: $color_step_head_iswait;
+	border-color: $color_step_head_iswait;
+	background-color: $color_step_head_iswait_bgcolor;
+}
+.el-step__title.is-wait{
+	color: $color_step_title_iswait;
+}
+.el-step__description.is-wait{
+	color: $color_step_head_iswait;
+}
+.el-step__head.is-text.is-success{
+	color: $color_step_head_issuccess;
+	border-color: $color_step_head_issuccess_bgcolor;
+	background-color: $color_step_head_issuccess_bgcolor;
+}
+.el-step__head.is-success{
+	color: $color_step_head_issuccess_bgcolor;
+	border-color: $color_step_head_issuccess_bgcolor;
+}
+.el-step__title.is-success{
+	color: $color_step_head_issuccess_bgcolor;
+}
+.el-step__description.is-success{
+	color: $color_step_head_issuccess_bgcolor;
+}
+.el-step__head.is-text.is-finish{
+	color: $color_step_head_isfinish;
+	border-color: $color_step_head_isfinish_bgcolor;
+	background-color: $color_step_head_isfinish_bgcolor;
+}
+.el-step__head.is-finish{
+	color: $color_step_head_isfinish_bgcolor;
+	border-color: $color_step_head_isfinish_bgcolor;
+}
+.el-step__title.is-finish{
+	color: $color_step_head_isfinish_bgcolor;
+}
+.el-step__description.is-finish{
+	color: $color_step_head_isfinish_bgcolor;
+}

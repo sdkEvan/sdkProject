@@ -1,0 +1,269 @@
+/*
+menu.scss
+ */
+$color_menu_hover:#0288d1;
+$color_menu_item_hover:#53628A;
+$color_menu_item_color:#fff;
+$color_menu_bgcolor:#53628A;
+
+/*
+button.scss
+ */
+$color_button--text:#4F98E1;
+$color_button_is-plain:rgb(31, 45, 61);
+$color_button_is-plain_border:rgb(191, 203, 217);
+
+/*
+card.scss
+ */
+$color_card_bgcolor:#fff;
+$color_card_border:#eee;
+
+/*
+badge.scss
+ */
+$color_badge_bgcolor:#ff4949;
+$color_badge_color:#fff;
+$color_badge_border_color:#fff;
+
+/*
+progress.scss
+ */
+$color_progress_bgcolor:rgb(228, 232, 241);
+$color_progress_text:rgb(72, 87, 106);
+
+/*
+form.scss
+ */
+$color_input_bgcolor:#fff;
+$color_input_hover_border:rgb(131, 145, 165);
+$color_input_focus_border:#4F98E1;
+$color_input_border:rgb(191, 203, 217);
+$color_input_color:rgb(31, 45, 61);
+$color_input_icon_color:rgb(191, 203, 217);
+$color_input_group_bgcolor:rgb(251, 253, 255);
+$color_input_group_border:rgb(191, 203, 217);
+$color_input_group_color:rgb(151, 168, 190);
+$color_select_dropdown_item_hover_bgcolor:rgb(228, 232, 241);
+$color_select_dropdown_item:rgb(72, 87, 106);
+$color_select_dropdown_bgcolor:#fff;
+$color_select_dropdown_border:rgb(209, 219, 229);
+$color_select_dropdown_item_selected_bgcolor:#4F98E1;
+$color_select_dropdown_item_selected:#fff;
+$color_radio_bgcolor:#fff;
+$color_radio_border:rgb(191, 203, 217);
+$color_radio_checked:#4F98E1;
+$color_radio_checked_color:#fff;
+$color_radio_disabled_bgcolor:rgb(238, 241, 246);
+$color_radio_disabled_border:rgb(209, 219, 229);
+$color_checkbox_checked_border:rgb(1, 144, 254);
+$color_checkbox_after_border:#fff;
+
+/*
+table.scss
+ */
+$color_table_bgcolor:#fff;
+$color_table_border:rgb(223, 230, 236);
+$color_table:rgb(31, 45, 61);
+// $color_table_head_bgcolor:rgb(238, 241, 246);
+$color_table_head_bgcolor:#fff;
+$color_table_head:rgb(25, 45, 61);
+$color_table_tr_hover_bgcolor:rgb(238, 241, 246);
+$color_table_tr_info-row:#c9e5f5;
+$color_table_tr_positive-row:#e2f0e4;
+$color_table_tr_current:rgb(237, 247, 255);
+$color_table_expanded-cell_bgcolor:rgb(251, 253, 255);
+$color_table_fixe_header_thead_div:#fff;
+
+/*
+tab.scss
+ */
+$color_tab_bgcolor:#fff;
+$color_tab_border:rgb(209, 219, 229);
+$color_tab_active_bgcolor:#fff;
+$color_tab_head_bgcolor:rgb(238, 241, 246);
+$color_tab_item:rgb(131, 145, 165);
+$color_tab_item_active:#4F98E1;
+$color_tab_new:#d3dce6;
+
+/*
+breadcrumb.scss
+ */
+$color_breadcrumb:rgb(72, 87, 106);
+$color_breadcrumb_separator:rgb(191, 203, 217);
+$color_breadcrumb_last:rgb(151, 168, 190);
+
+/*
+dropdown.scss
+ */
+$color_dropdown:rgb(72, 87, 106);
+$color_dropdown_bgcolor:#fff;
+$color_dropdown_border:rgb(209, 219, 229);
+
+/*
+step.scss
+ */
+$color_step_isprocess_bgcolor:rgb(191, 203, 217);
+$color_step_isprocess:#fff;
+$color_step_title_isprocess:rgb(72, 87, 106);
+$color_step_des_isprocess:rgb(131, 145, 165);
+$color_step_head_iswait:rgb(191, 203, 217);
+$color_step_head_iswait_bgcolor:#fff;
+$color_step_title_iswait:rgb(151, 168, 190);
+$color_step_head_issuccess:#fff;
+$color_step_head_issuccess_bgcolor:#13ce66;
+$color_step_head_isfinish_bgcolor:#4F98E1;
+$color_step_head_isfinish:#fff;
+
+/*
+pagination.scss
+ */
+$color_pagination:rgb(72, 87, 106);
+$color_pagination_button_disabled:#e4e4e4;
+$color_pagination_button_disabled_bgcolor:#fff;
+$color_pagination_btn:rgb(151, 168, 190);
+$color_pagination_btn_border:rgb(209, 219, 229);
+$color_pager_active_bgcolor:#4F98E1;
+$color_pager_active:#fff;
+
+/*
+picker.scss
+ */
+$color_picker_panel:rgb(72, 87, 106);
+$color_picker_panel_bgcolor:#fff;
+$color_picker_panel_border:rgb(209, 219, 229);
+$color_picker_panel_btn_border:#dcdcdc;
+$color_time_select_item_hover_bgcolor:rgb(228, 232, 241);
+$color_time_select_item_selected_bgcolor:#4F98E1;
+$color_time_select_item_selected:#fff;
+$color_time_select_item_disabled:rgb(209, 219, 229);
+$color_scrollbar_thumb_bgcolor:rgba(151, 168, 190, 0.3);
+$color_time_panel_border:rgb(209, 219, 229);
+$color_time_panel_bgcolor:#fff;
+$color_time_panel_content_bgcolor:#4F98E1;
+$color_time_panel_content:#fff;
+$color_time_spinner_item_hover_bgcolor:rgb(228, 232, 241);
+$color_time_panle_footer_border_top:#e4e4e4;
+$color_time_panel_btn:rgb(131, 145, 165);
+$color_time_panel_btn_confirm:#4F98E1;
+$color_picker_panle_icon-btn:rgb(151, 168, 190);
+$color_picker_panle_icon-btn_hover:#4F98E1;
+$color_date_table_td_disabled_bgcolor:#f4f4f4;
+$color_date_table_next_prev:#ddd;
+$color_date_table_td_disabled:#ccc;
+$color_date_table_today:#4F98E1;
+$color_date_table_td_available_hover_bgcolor:rgb(228, 232, 241);
+$color_date_table_td_current_bgcolor:#4F98E1 !important;
+$color_date_table_td_current:#fff;
+$color_picker_panel_sidebar_bgcolor:rgb(251, 253, 255);
+$color_date_table_weekmode_current_bgcolor:rgb(210, 236, 255);
+$color_color_picker_trigger_border:#bfcbd9;
+$color_color_picker_color_border:#666;
+$color_color_picker_icon:#888;
+$color_color_picker_panel_border:rgb(209, 219, 229);
+$color_color_dropdown_value:rgb(31, 45, 61);
+$color_color_dropdown_link_btn_hover:rgb(77, 179, 255);
+$color_color_dropdown_btn:#333;
+
+/*
+tree.scss
+ */
+$color_tree_bgcolor:#fff;
+$color_tree_border:rgb(209, 219, 229);
+$color_tree_node_icon_border:rgb(151, 168, 190);
+$color_tree_node_content_hover_bgcolor:rgb(228, 232, 241);
+$color_tree_highlight_current_bgcolor:rgb(237, 247, 255);
+
+/*
+inputnumber.scss
+ */
+$color_input_number_crease_border:rgb(191, 203, 217);
+$color_input_number_crease:rgb(151, 168, 190);
+$color_input_number_crease_hover:#4F98E1;
+$color_input_number_crease_disabled:rgb(209, 219, 229);
+
+/*
+slider.scss
+ */
+$color_slider_runway_bgcolor:rgb(228, 232, 241);
+$color_slider_bar_bgcolor:#4F98E1;
+$color_slider_stop_bgcolor:rgb(191, 203, 217);
+
+/*
+message.scss
+ */
+$color_message_bgcolor:#fff;
+
+/*
+messagebox.scss
+ */
+$color_message_box_bgcolor:#fff;
+$color_message_box_title:#333;
+$color_message_box_close:#999;
+$color_message_box_content:rgb(72, 87, 106);
+$color_message_box_errormsg:#ff4949;
+$color_message_box_close_hover:#4F98E1;
+
+/*
+notification.scss
+ */
+$color_notification_bgcolor:#fff;
+$color_notification_title:rgb(31, 45, 61);
+$color_notification_content:rgb(131, 145, 165);
+$color_notification_close_hover:rgb(151, 168, 190);
+
+/*
+dialog.scss
+ */
+$color_dialog_bgcolor:#fff;
+$color_dialog_title:rgb(31, 45, 61);
+$color_dialog_headerbtn_close:rgb(191, 203, 217);
+$color_dialog_headerbtn_close_hover:#4F98E1;
+$color_dialog_body:rgb(72, 87, 106);
+
+/*
+tooltip.scss
+ */
+$color_tooltip_isdark_bgcolor:rgb(31, 45, 61);
+$color_tooltip_isdark:#fff;
+$color_tooltip_islight_bgcolor:#fff;
+$color_tooltip_islight_border:rgb(31, 45, 61);
+
+/*
+popover.scss
+ */
+$color_popover_border:rgb(209, 219, 229);
+$color_popover_bgcolor:#fff;
+$color_popover_title:rgb(31, 45, 61);
+
+/*
+carousel.scss
+ */
+$color_carousel_arrow_bgcolor:rgba(31, 45, 61, 0.11);
+$color_carousel_arrow:#fff;
+$color_carousel_button:#fff;
+
+/*
+collapse.scss
+ */
+$color_collapse_border:rgb(223, 230, 236);
+$color_collapse_item_header:rgb(72, 87, 106);
+$color_collapse_item_header_bgcolor:#fff;
+$color_collapse_item_header_border:rgb(223, 230, 236);
+$color_collapse_item_wrap_bgcolor:rgb(251, 253, 255);
+$color_collapse_item_content:rgb(31, 45, 61);
+
+/*
+upload.scss
+ */
+$color_upload_list_item:rgb(72, 87, 106);
+$color_upload_list_item-name:rgb(151, 168, 190);
+$color_upload_list_item_hover_bgcolor:rgb(238, 241, 246);
+$color_upload_list_item-name_hover:#4F98E1;
+$color_avatar_upload_icon:#8c939d;
+$color_upload_picture-card_bgcolor:#fbfdff;
+$color_upload_picture-card_border:#c0ccda;
+$color_upload_picture-card_hover_border:#4F98E1;
+$color_upload_picture-card_i:#8c939d;
+$color_upload_tip:rgb(131, 145, 165);
+$color_upload_list_picture_item_bgcolor:#fff;

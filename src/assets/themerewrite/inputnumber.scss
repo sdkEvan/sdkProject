@@ -1,0 +1,15 @@
+@import "./color/color.scss";
+.el-input-number__increase, .el-input-number__decrease{
+	border-left-color: $color_input_number_crease_border;
+	color: $color_input_number_crease;
+}
+.el-input-number__increase:hover, .el-input-number__decrease:hover{
+	color: $color_input_number_crease_hover;
+}
+.el-input-number__increase.is-disabled, .el-input-number__decrease.is-disabled{
+	color: $color_input_number_crease_disabled;
+}
+.el-input-number.is-disabled .el-input-number__increase, .el-input-number.is-disabled .el-input-number__decrease{
+	color: $color_input_number_crease_disabled;
+	border-color: $color_input_number_crease_disabled;
+}

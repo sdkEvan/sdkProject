@@ -1,0 +1,102 @@
+@import "./color/color.scss";
+.el-input__inner{
+	height: 34px;
+	background-color: $color_input_bgcolor;
+	border-color: $color_input_border;
+	color:$color_input_color;
+}
+.el-input__inner:hover{
+	border-color: $color_input_hover_border;
+}
+.el-input__inner:focus{
+	border-color: $color_input_focus_border;
+}
+.el-select .el-input__inner:focus{
+	border-color: $color_input_focus_border;
+}
+.el-textarea__inner{
+	background-color: $color_input_bgcolor;
+	border-color: $color_input_border;
+	color:$color_input_color;
+}
+.el-textarea__inner:hover{
+	border-color: $color_input_hover_border;
+}
+.el-textarea__inner:focus{
+	border-color: $color_input_focus_border;
+}
+.el-input-group__append, .el-input-group__prepend{
+	background-color: $color_input_group_bgcolor;
+	border-color: $color_input_group_border;
+	color:$color_input_group_color;
+}
+.el-select .el-input .el-input__icon{
+	color: $color_input_icon_color;
+}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
+	background-color: $color_select_dropdown_item_hover_bgcolor;
+}
+.el-select-dropdown__item{
+	color:$color_select_dropdown_item;
+}
+.el-select-dropdown{
+	background-color: $color_select_dropdown_bgcolor;
+	border-color: $color_select_dropdown_border;
+}
+.el-select-dropdown__item.selected{
+	background-color: $color_select_dropdown_item_selected_bgcolor;
+	color: $color_select_dropdown_item_selected;
+}
+.el-radio__inner{
+	background-color: $color_radio_bgcolor;
+	border-color: $color_radio_border;
+}
+.el-radio__input.is-checked .el-radio__inner{
+	background-color: $color_radio_checked;
+	border-color: $color_radio_checked;
+}
+.el-radio-button__orig-radio:checked + .el-radio-button__inner{
+	background-color: $color_radio_checked;
+	border-color: $color_radio_checked;
+	box-shadow-color:$color_radio_checked;
+	color: $color_radio_checked_color; 
+}
+.el-radio-button__orig-radio:disabled + .el-radio-button__inner{
+	background-color: $color_radio_disabled_bgcolor;
+	border-color: $color_radio_disabled_border;
+	color: $color_radio_border;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner{
+	background-color: $color_radio_checked;
+	border-color:$color_checkbox_checked_border;
+}
+.el-checkbox__inner{
+	background-color: $color_radio_bgcolor;
+	border-color: $color_radio_border;
+}
+.el-checkbox__inner::after{
+	border-color:$color_checkbox_after_border;
+}
+.el-radio__inner::after{
+	background-color:$color_checkbox_after_border; 
+}
+.el-checkbox__input.is-indeterminate .el-checkbox__inner::before{
+	border-color:$color_checkbox_after_border;
+}
+.el-radio-button__inner{
+	color: $color_input_color;
+	border-color: $color_radio_border;
+	background-color: $color_radio_bgcolor;
+}
+.el-checkbox-button:first-child .el-checkbox-button__inner{
+	// box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !imp;
+}
+.el-checkbox-button{
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.el-checkbox-button.is-checked{
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+.el-radio-button{
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}

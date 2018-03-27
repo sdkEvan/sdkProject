@@ -1,0 +1,13 @@
+@import "./color/color.scss";
+.el-notification{
+	background-color: $color_notification_bgcolor;
+}
+.el-notification__title{
+	color: $color_notification_title;
+}
+.el-notification__content{
+	color: $color_notification_content;
+}
+.el-notification__closeBtn:hover{
+	color: $color_notification_close_hover;
+}

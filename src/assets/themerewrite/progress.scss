@@ -1,0 +1,13 @@
+@import "./color/color.scss";
+.el-progress-bar__outer{
+	background-color: $color_progress_bgcolor;
+}
+.el-progress__text{
+	color: $color_progress_text;
+}
+.el-progress-bar__outer{
+	border-radius: 0px;
+}
+.el-progress-bar__inner{
+	border-radius: 0px;
+}

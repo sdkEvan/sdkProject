@@ -1,0 +1,6 @@
+@import './color/color.scss';
+.el-badge__content{
+	background-color: $color_badge_bgcolor;
+	border-color: $color_badge_border_color;
+	color: $color_badge_color;
+}

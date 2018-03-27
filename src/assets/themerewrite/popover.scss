@@ -1,0 +1,21 @@
+@import "./color/color.scss";
+.el-popover{
+	border-radius: 0px;
+	border-color: $color_popover_border;
+	background-color: $color_popover_bgcolor;
+}
+.el-popover[x-placement^="right"] .popper__arrow{
+	border-right-color: $color_popover_border;
+}
+.el-popover__title{
+	color: $color_popover_title;
+}
+.el-popover[x-placement^="bottom"] .popper__arrow{
+	border-bottom-color: $color_popover_border;
+}
+.el-popover[x-placement^="top"] .popper__arrow{
+	border-top-color: $color_popover_border;
+}
+.el-popover[x-placement^="left"] .popper__arrow{
+	border-left-color: $color_popover_border;
+}

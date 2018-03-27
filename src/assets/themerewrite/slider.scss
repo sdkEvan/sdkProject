@@ -1,0 +1,13 @@
+@import "./color/color.scss";
+.el-slider__runway{
+	background-color: $color_slider_runway_bgcolor;
+}
+.el-slider__bar{
+	background-color: $color_slider_bar_bgcolor;
+}
+.el-slider__button{
+	background-color: $color_slider_bar_bgcolor;
+}
+.el-slider__stop{
+	background-color: $color_slider_stop_bgcolor;
+}

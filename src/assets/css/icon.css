@@ -1,0 +1,81 @@
+.-icons{
+	font-family: fontawesome;
+	display: inline-block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	width: 18px;
+    text-align: center;
+}
+.-icons-right{
+	margin-right: 10px;
+}
+.icon-bell-o:before {
+    content: "\f0a2";
+}
+.icon-envelope-o:before {
+	content: "\f003";
+}
+.icon-search:before {
+	content: "\f002";
+}
+.icon-home:before {
+	content: "\f015";
+}
+.icon-th:before {
+    content: "\f00a";
+}
+.icon-columns:before {
+    content: "\f0db";
+}
+.icon-briefcase:before {
+    content: "\f0b1";
+}
+.icon-edit:before, .icon-pencil-square-o:before {
+    content: "\f044";
+}
+.icon-table:before {
+    content: "\f0ce";
+}
+.icon-pie-chart:before {
+    content: "\f200";
+}
+.icon-map-marker:before {
+    content: "\f041";
+}
+.icon-lock:before {
+    content: "\f023";
+}
+.icon-group:before, .icon-users:before {
+    content: "\f0c0";
+}
+.icon-envelope:before {
+    content: "\f0e0";
+}
+.icon-comments:before {
+    content: "\f086";
+}
+.icon-user:before {
+    content: "\f007";
+}
+.icon-cloud-upload:before {
+    content: "\f0ee";
+}
+.icon-star:before {
+    content: "\f005";
+}
+.icon-shopping-cart:before {
+    content: "\f07a";
+}
+.icon-copy:before, .icon-files-o:before {
+    content: "\f0c5";
+}
+.icon-nav:before{
+    content: "\f0c9";
+}
+.icon-other:before{
+    content:"\f03a";
+}
+.icon-notice:before{
+    content:"\f249";
+}

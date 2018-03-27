@@ -1,0 +1,16 @@
+@import "./color/color.scss";
+.el-collapse{
+	border-color: $color_collapse_border;
+}
+.el-collapse-item__header{
+	color: $color_collapse_item_header;
+	background-color: $color_collapse_item_header_bgcolor;
+	border-bottom-color: $color_collapse_item_header_border;
+}
+.el-collapse-item__wrap{
+	background-color: $color_collapse_item_wrap_bgcolor;
+	border-bottom-color: $color_collapse_item_header_border;
+}
+.el-collapse-item__content{
+	color: $color_collapse_item_content;
+}

@@ -1,0 +1,41 @@
+@import "./color/color.scss";
+.el-upload-list__item{
+	color: $color_upload_list_item;
+}
+.el-upload-list__item-name{
+	color: $color_upload_list_item;
+}
+.el-upload-list__item-name [class^="el-icon"]{
+	color: $color_upload_list_item-name;
+}
+.el-upload-list__item .el-icon-close{
+	color: $color_upload_list_item;
+}
+.el-upload-list__item:hover{
+	background-color: $color_upload_list_item_hover_bgcolor;
+}
+.el-upload-list__item.is-success .el-upload-list__item-name:hover{
+	color: $color_upload_list_item-name_hover;
+}
+.avatar-uploader-icon[data-v-55701c2c]{
+	color: $color_avatar_upload_icon;
+}
+.el-upload--picture-card{
+	background-color: $color_upload_picture-card_bgcolor;
+	border-color: $color_upload_picture-card_border;
+}
+.el-upload--picture-card:hover{
+	border-color: $color_upload_picture-card_hover_border;
+	color: $color_upload_picture-card_hover_border;
+}
+.el-upload--picture-card i{
+	color: $color_upload_picture-card_i;
+}
+.el-upload__tip{
+	color: $color_upload_tip;
+}
+.el-upload-list--picture .el-upload-list__item{
+	border-radius: 0px;
+	background-color: $color_upload_list_picture_item_bgcolor;
+	border-color: $color_upload_picture-card_border;
+}
